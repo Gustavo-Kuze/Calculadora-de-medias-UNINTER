@@ -37,8 +37,8 @@
             this.lblOpenMoreInfo = new System.Windows.Forms.Label();
             this.lblOpenGithub = new System.Windows.Forms.Label();
             this.paneMoreInfo = new System.Windows.Forms.Panel();
-            this.btnCloseMoreInfo = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnCloseMoreInfo = new System.Windows.Forms.Label();
             this.paneTitleBar.SuspendLayout();
             this.paneMoreInfo.SuspendLayout();
             this.SuspendLayout();
@@ -101,7 +101,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox1.Location = new System.Drawing.Point(12, 95);
+            this.textBox1.Location = new System.Drawing.Point(12, 86);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -134,6 +134,7 @@
             this.lblOpenGithub.Size = new System.Drawing.Size(167, 21);
             this.lblOpenGithub.TabIndex = 1;
             this.lblOpenGithub.Text = "Github do projeto";
+            this.lblOpenGithub.Click += new System.EventHandler(this.lblOpenGithub_Click);
             // 
             // paneMoreInfo
             // 
@@ -143,19 +144,6 @@
             this.paneMoreInfo.Name = "paneMoreInfo";
             this.paneMoreInfo.Size = new System.Drawing.Size(540, 10);
             this.paneMoreInfo.TabIndex = 3;
-            // 
-            // btnCloseMoreInfo
-            // 
-            this.btnCloseMoreInfo.AutoSize = true;
-            this.btnCloseMoreInfo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCloseMoreInfo.Font = new System.Drawing.Font("DejaVu Sans", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCloseMoreInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(165)))), ((int)(((byte)(16)))));
-            this.btnCloseMoreInfo.Location = new System.Drawing.Point(507, 12);
-            this.btnCloseMoreInfo.Name = "btnCloseMoreInfo";
-            this.btnCloseMoreInfo.Size = new System.Drawing.Size(21, 21);
-            this.btnCloseMoreInfo.TabIndex = 1;
-            this.btnCloseMoreInfo.Text = "x";
-            this.btnCloseMoreInfo.Click += new System.EventHandler(this.btnCloseMoreInfo_Click);
             // 
             // textBox2
             // 
@@ -170,6 +158,19 @@
             this.textBox2.Size = new System.Drawing.Size(515, 379);
             this.textBox2.TabIndex = 3;
             this.textBox2.Text = resources.GetString("textBox2.Text");
+            // 
+            // btnCloseMoreInfo
+            // 
+            this.btnCloseMoreInfo.AutoSize = true;
+            this.btnCloseMoreInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCloseMoreInfo.Font = new System.Drawing.Font("DejaVu Sans", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCloseMoreInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(165)))), ((int)(((byte)(16)))));
+            this.btnCloseMoreInfo.Location = new System.Drawing.Point(507, 12);
+            this.btnCloseMoreInfo.Name = "btnCloseMoreInfo";
+            this.btnCloseMoreInfo.Size = new System.Drawing.Size(21, 21);
+            this.btnCloseMoreInfo.TabIndex = 1;
+            this.btnCloseMoreInfo.Text = "x";
+            this.btnCloseMoreInfo.Click += new System.EventHandler(this.btnCloseMoreInfo_Click);
             // 
             // FrmInfo
             // 
@@ -187,7 +188,7 @@
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Calculadora de médias - ADS - Sobre";

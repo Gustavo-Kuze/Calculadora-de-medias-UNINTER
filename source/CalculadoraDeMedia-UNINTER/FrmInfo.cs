@@ -30,5 +30,16 @@ namespace CalculadoraDeMedia_UNINTER
         {
             paneMoreInfo.Size = new Size(paneMoreInfo.Size.Width, 0);
         }
+
+        private void lblOpenGithub_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://github.com/UNCA-ADS/Calculadora-de-medias-UNINTER");
+            }
+            catch
+            {
+            }
+        }
     }
 }
