@@ -11,4 +11,3 @@ do Microsoft .NetFramework 4.5, de forma offline (sem acesso a internet).
 
 ## Dependências
  - .NetFramework 4.5 (para os sistemas Windows);
- - Mono (para Linux e Mac)
