@@ -22,7 +22,7 @@ namespace CalculadoraDeMedia_UNINTER.Helper
             Color.FromArgb(76,175,80),
             
             //orange
-            Color.FromArgb(234, 165, 16),
+            Color.FromArgb(255, 179, 0),
 
             //red
             Color.FromArgb(244, 67, 54)
