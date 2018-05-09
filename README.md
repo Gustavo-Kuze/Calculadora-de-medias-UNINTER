@@ -12,3 +12,6 @@ do Microsoft .NetFramework 4.5, de forma offline (sem acesso a internet).
 ## Dependências
  - .NetFramework 4.5 (para os sistemas Windows);
  - Mono (para Linux e Mac)
+ 
+ # Aviso!
+ Por hora a calculadora faz cálculos apenas para as médias baseadas nos cursos politécnicos, mas em breve as outras áreas serão implementadas também.
