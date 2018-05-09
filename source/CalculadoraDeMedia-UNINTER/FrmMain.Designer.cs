@@ -97,7 +97,7 @@
             // 
             this.paneTitleBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.paneTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(165)))), ((int)(((byte)(16)))));
+            this.paneTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(7)))));
             this.paneTitleBar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.paneTitleBar.Controls.Add(this.btnMin);
             this.paneTitleBar.Controls.Add(this.btnClose);
@@ -113,7 +113,7 @@
             this.btnMin.FlatAppearance.BorderSize = 0;
             this.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMin.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.btnMin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.btnMin.Location = new System.Drawing.Point(855, 2);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(39, 55);
@@ -127,7 +127,7 @@
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.btnClose.Location = new System.Drawing.Point(897, 3);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(39, 55);
@@ -150,7 +150,7 @@
             // 
             this.nudApol1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudApol1.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudApol1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudApol1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudApol1.Location = new System.Drawing.Point(16, 68);
             this.nudApol1.Name = "nudApol1";
             this.nudApol1.Size = new System.Drawing.Size(87, 30);
@@ -183,7 +183,7 @@
             // 
             this.nudApol2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudApol2.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudApol2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudApol2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudApol2.Location = new System.Drawing.Point(121, 68);
             this.nudApol2.Name = "nudApol2";
             this.nudApol2.Size = new System.Drawing.Size(87, 30);
@@ -205,7 +205,7 @@
             // 
             this.nudApol3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudApol3.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudApol3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudApol3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudApol3.Location = new System.Drawing.Point(16, 136);
             this.nudApol3.Name = "nudApol3";
             this.nudApol3.Size = new System.Drawing.Size(87, 30);
@@ -227,7 +227,7 @@
             // 
             this.nudApol4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudApol4.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudApol4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudApol4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudApol4.Location = new System.Drawing.Point(121, 136);
             this.nudApol4.Name = "nudApol4";
             this.nudApol4.Size = new System.Drawing.Size(87, 30);
@@ -249,7 +249,7 @@
             // 
             this.nudApol5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudApol5.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudApol5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudApol5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudApol5.Location = new System.Drawing.Point(16, 203);
             this.nudApol5.Name = "nudApol5";
             this.nudApol5.Size = new System.Drawing.Size(87, 30);
@@ -271,7 +271,7 @@
             // 
             this.nudAP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudAP.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudAP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudAP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudAP.Location = new System.Drawing.Point(35, 66);
             this.nudAP.Name = "nudAP";
             this.nudAP.Size = new System.Drawing.Size(87, 30);
@@ -293,7 +293,7 @@
             // 
             this.nudPO.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudPO.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudPO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudPO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudPO.Location = new System.Drawing.Point(33, 86);
             this.nudPO.Name = "nudPO";
             this.nudPO.Size = new System.Drawing.Size(87, 30);
@@ -315,7 +315,7 @@
             // 
             this.nudPD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudPD.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudPD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudPD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudPD.Location = new System.Drawing.Point(33, 154);
             this.nudPD.Name = "nudPD";
             this.nudPD.Size = new System.Drawing.Size(87, 30);
@@ -325,7 +325,7 @@
             // btnCalc
             // 
             this.btnCalc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCalc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(165)))), ((int)(((byte)(16)))));
+            this.btnCalc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(7)))));
             this.btnCalc.FlatAppearance.BorderSize = 0;
             this.btnCalc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalc.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -353,7 +353,7 @@
             // 
             this.txtMD.Enabled = false;
             this.txtMD.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.txtMD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.txtMD.Location = new System.Drawing.Point(16, 32);
             this.txtMD.Name = "txtMD";
             this.txtMD.Size = new System.Drawing.Size(100, 34);
@@ -463,7 +463,7 @@
             // 
             this.lblResult.AutoSize = true;
             this.lblResult.Font = new System.Drawing.Font("DejaVu Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResult.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblResult.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
             this.lblResult.Location = new System.Drawing.Point(230, 32);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(248, 28);
@@ -489,7 +489,7 @@
             // 
             this.nudEO.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudEO.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudEO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudEO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudEO.Location = new System.Drawing.Point(14, 68);
             this.nudEO.Name = "nudEO";
             this.nudEO.Size = new System.Drawing.Size(87, 30);
@@ -517,7 +517,7 @@
             // 
             this.nudED.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudED.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudED.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudED.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudED.Location = new System.Drawing.Point(14, 136);
             this.nudED.Name = "nudED";
             this.nudED.Size = new System.Drawing.Size(87, 30);
@@ -605,7 +605,7 @@
             // 
             this.nudMFMD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudMFMD.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudMFMD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.nudMFMD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.nudMFMD.Location = new System.Drawing.Point(185, 68);
             this.nudMFMD.Name = "nudMFMD";
             this.nudMFMD.Size = new System.Drawing.Size(87, 30);
@@ -616,7 +616,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.ClientSize = new System.Drawing.Size(936, 633);
             this.Controls.Add(this.rdoCalculateMF);
             this.Controls.Add(this.rdoCalculateMD);

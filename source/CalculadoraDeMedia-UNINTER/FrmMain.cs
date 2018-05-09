@@ -12,7 +12,7 @@ namespace CalculadoraDeMedia_UNINTER
 {
     public partial class FrmMain : Form
     {
-       
+        
         public FrmMain()
         {
             InitializeComponent();
@@ -24,9 +24,12 @@ namespace CalculadoraDeMedia_UNINTER
             txtMD.Text = "";
             lblResult.Text = "";
 
-            btnMin.Click += new Utils.UIMethods().btnMin_Click;
-            btnClose.Click += new Utils.UIMethods().btnClose_Click;
-            paneTitleBar.MouseDown += new Utils.UIMethods().Frm_MouseDown;
+            Utils.UIMethods uiMethods = new Utils.UIMethods(this);
+
+            btnMin.Click += uiMethods.btnMin_Click;
+            btnClose.Click += uiMethods.btnClose_Click;
+            paneTitleBar.MouseDown += uiMethods.frm_MouseDown;
+            paneTitleBar.MouseMove += uiMethods.frm_MouseMove;
         }
 
         private void btnCalc_Click(object sender, EventArgs e)

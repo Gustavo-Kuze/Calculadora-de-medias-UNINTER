@@ -16,9 +16,12 @@ namespace CalculadoraDeMedia_UNINTER
         {
             InitializeComponent();
 
-            btnMin.Click += new Utils.UIMethods().btnMin_Click;
-            btnClose.Click += new Utils.UIMethods().btnClose_Click;
-            paneTitleBar.MouseDown += new Utils.UIMethods().Frm_MouseDown;
+            Utils.UIMethods uiMethods = new Utils.UIMethods(this);
+
+            btnMin.Click += uiMethods.btnMin_Click;
+            btnClose.Click += uiMethods.btnClose_Click;
+            paneTitleBar.MouseDown += uiMethods.frm_MouseDown;
+            paneTitleBar.MouseMove += uiMethods.frm_MouseMove;
         }
 
         private void lblOpenMoreInfo_Click(object sender, EventArgs e)
@@ -35,7 +38,7 @@ namespace CalculadoraDeMedia_UNINTER
         {
             try
             {
-                System.Diagnostics.Process.Start("https://github.com/UNCA-ADS/Calculadora-de-medias-UNINTER");
+                System.Diagnostics.Process.Start("https://github.com/gustavokuze/Calculadora-de-medias-UNINTER");
             }
             catch
             {

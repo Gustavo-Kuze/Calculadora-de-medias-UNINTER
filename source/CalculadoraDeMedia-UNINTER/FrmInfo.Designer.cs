@@ -47,7 +47,7 @@
             // 
             this.paneTitleBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.paneTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(165)))), ((int)(((byte)(16)))));
+            this.paneTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(7)))));
             this.paneTitleBar.Controls.Add(this.btnMin);
             this.paneTitleBar.Controls.Add(this.btnClose);
             this.paneTitleBar.Controls.Add(this.label1);
@@ -62,7 +62,7 @@
             this.btnMin.FlatAppearance.BorderSize = 0;
             this.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMin.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.btnMin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.btnMin.Location = new System.Drawing.Point(456, 2);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(39, 55);
@@ -76,7 +76,7 @@
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.btnClose.Location = new System.Drawing.Point(498, 3);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(39, 55);
@@ -97,7 +97,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Control;
@@ -115,7 +115,7 @@
             this.lblOpenMoreInfo.AutoSize = true;
             this.lblOpenMoreInfo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblOpenMoreInfo.Font = new System.Drawing.Font("DejaVu Sans", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOpenMoreInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(165)))), ((int)(((byte)(16)))));
+            this.lblOpenMoreInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(7)))));
             this.lblOpenMoreInfo.Location = new System.Drawing.Point(25, 524);
             this.lblOpenMoreInfo.Name = "lblOpenMoreInfo";
             this.lblOpenMoreInfo.Size = new System.Drawing.Size(338, 21);
@@ -128,7 +128,7 @@
             this.lblOpenGithub.AutoSize = true;
             this.lblOpenGithub.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblOpenGithub.Font = new System.Drawing.Font("DejaVu Sans", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOpenGithub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(165)))), ((int)(((byte)(16)))));
+            this.lblOpenGithub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(7)))));
             this.lblOpenGithub.Location = new System.Drawing.Point(25, 560);
             this.lblOpenGithub.Name = "lblOpenGithub";
             this.lblOpenGithub.Size = new System.Drawing.Size(167, 21);
@@ -176,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(49)))), ((int)(((byte)(97)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(71)))), ((int)(((byte)(161)))));
             this.ClientSize = new System.Drawing.Size(539, 608);
             this.Controls.Add(this.paneMoreInfo);
             this.Controls.Add(this.lblOpenGithub);

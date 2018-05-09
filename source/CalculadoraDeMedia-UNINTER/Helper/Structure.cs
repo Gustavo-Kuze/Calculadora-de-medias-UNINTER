@@ -19,13 +19,13 @@ namespace CalculadoraDeMedia_UNINTER.Helper
         public readonly static Color[] resultsColors =
         {
             //green
-            Color.FromArgb(0,150,10),
+            Color.FromArgb(76,175,80),
             
             //orange
             Color.FromArgb(234, 165, 16),
 
             //red
-            Color.FromKnownColor(KnownColor.Firebrick)
+            Color.FromArgb(244, 67, 54)
 
 
         };
