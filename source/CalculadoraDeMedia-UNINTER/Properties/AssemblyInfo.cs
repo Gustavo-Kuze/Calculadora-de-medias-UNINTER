@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associada a um assembly.
-[assembly: AssemblyTitle("CalculadoraDeMedia-UNINTER")]
+[assembly: AssemblyTitle("CalculadoraDeMedias_UNINTER")]
 [assembly: AssemblyDescription("Uma calculadora de médias do curso Análise e Desenvolvimento de Sistemas")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("UNCA-ADS")]
-[assembly: AssemblyProduct("CalculadoraDeMedia-UNINTER")]
+[assembly: AssemblyProduct("CalculadoraDeMedias_UNINTER")]
 [assembly: AssemblyCopyright("Copyright © Gustavo Kuze 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // É possível especificar todos os valores ou usar como padrão os Números de Build e da Revisão
 // utilizando o "*" como mostrado abaixo:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.4.1")]
+[assembly: AssemblyFileVersion("1.0.4.1")]

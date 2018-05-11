@@ -1,30 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CalculadoraDeMedia_UNINTER
+namespace CalculadoraDeMedias_UNINTER
 {
     public partial class FrmMain : Form
     {
-        
+
         public FrmMain()
         {
             InitializeComponent();
-            initializeFields();
+            initializeProgram();
         }
-        
-        private void initializeFields()
+
+        private void initializeProgram()
         {
             txtMD.Text = "";
             lblResult.Text = "";
 
-            Utils.UIMethods uiMethods = new Utils.UIMethods(this);
+            Base.Program.GlobalEvents uiMethods = new Base.Program.GlobalEvents(this);
 
             btnMin.Click += uiMethods.btnMin_Click;
             btnClose.Click += uiMethods.btnClose_Click;
@@ -36,30 +30,27 @@ namespace CalculadoraDeMedia_UNINTER
         {
             if (rdoCalculateMD.Checked)
             {
-                calculateMD();
+                Decimal mD = calculateMD();
+                showResultsToUser(mD);
             }
             else
             {
-                calculateMF();
+                Decimal mF = calculateMF();
+                showResultsToUser(mF, true);
             }
         }
 
-        private void calculateMF()
+        private Decimal calculateMF()
         {
             Decimal EO = nudEO.Value;
             Decimal ED = nudED.Value;
             Decimal MD = nudMFMD.Value;
-            Decimal MF = Utils.MathEngine.calculateMF(MD, EO, ED);
+            Decimal MF = Functional.Calculator.MathEngine.calculateMF(MD, EO, ED);
 
-            int checkResult = Utils.Results.check(MF, true);
-
-            txtMD.Text = MF.ToString();
-
-            lblResult.Text = Helper.Structure.resultsText[checkResult];
-            lblResult.ForeColor = Helper.Structure.resultsColors[checkResult];
+            return MF;
         }
 
-        private void calculateMD()
+        private Decimal calculateMD()
         {
             List<Decimal> APOLsList = new List<Decimal>();
             APOLsList.Add(nudApol1.Value);
@@ -73,15 +64,22 @@ namespace CalculadoraDeMedia_UNINTER
             Decimal PD = nudPD.Value;
             Decimal EX = nudEO.Value;
 
+          Decimal MD = Functional.Calculator.MathEngine.calculateMD(APOLsList, AP, PD, PO);
 
-            Decimal MD = Utils.MathEngine.calculateMD(APOLsList, AP, PD, PO);
+            return MD;
+        }
 
-            txtMD.Text = MD.ToString();
+        private void showResultsToUser(Decimal userResult, bool isMF = false)
+        {
+            txtMD.Text = userResult.ToString();
 
-            int checkResult = Utils.Results.check(MD);
+            int checkResult = Functional.Calculator.Result.check(userResult, isMF);
 
-            lblResult.Text = Helper.Structure.resultsText[checkResult];
-            lblResult.ForeColor = Helper.Structure.resultsColors[checkResult];
+            txtMD.Text = userResult.ToString();
+
+            lblResult.Text = Base.Calculator.ResultUtils.resultsText[checkResult];
+            lblResult.ForeColor = Base.Calculator.ResultUtils.resultsColors[checkResult];
+
         }
 
         private void lblInfo_Click(object sender, EventArgs e)

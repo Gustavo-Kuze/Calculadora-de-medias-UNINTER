@@ -1,4 +1,4 @@
-﻿namespace CalculadoraDeMedia_UNINTER
+﻿namespace CalculadoraDeMedias_UNINTER
 {
     partial class FrmMain
     {

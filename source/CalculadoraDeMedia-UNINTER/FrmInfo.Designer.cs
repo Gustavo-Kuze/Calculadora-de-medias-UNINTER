@@ -1,4 +1,4 @@
-﻿namespace CalculadoraDeMedia_UNINTER
+﻿namespace CalculadoraDeMedias_UNINTER
 {
     partial class FrmInfo
     {
@@ -126,9 +126,9 @@
             this.lblOpenMoreInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(0)))));
             this.lblOpenMoreInfo.Location = new System.Drawing.Point(13, 440);
             this.lblOpenMoreInfo.Name = "lblOpenMoreInfo";
-            this.lblOpenMoreInfo.Size = new System.Drawing.Size(383, 23);
+            this.lblOpenMoreInfo.Size = new System.Drawing.Size(188, 23);
             this.lblOpenMoreInfo.TabIndex = 1;
-            this.lblOpenMoreInfo.Text = "Como calcular a média manualmente";
+            this.lblOpenMoreInfo.Text = "Mais informações";
             this.lblOpenMoreInfo.Click += new System.EventHandler(this.lblOpenMoreInfo_Click);
             // 
             // lblOpenGithub
@@ -137,7 +137,7 @@
             this.lblOpenGithub.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblOpenGithub.Font = new System.Drawing.Font("Liberation Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOpenGithub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(0)))));
-            this.lblOpenGithub.Location = new System.Drawing.Point(13, 476);
+            this.lblOpenGithub.Location = new System.Drawing.Point(12, 491);
             this.lblOpenGithub.Name = "lblOpenGithub";
             this.lblOpenGithub.Size = new System.Drawing.Size(186, 23);
             this.lblOpenGithub.TabIndex = 1;
