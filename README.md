@@ -3,7 +3,6 @@
 Calculadora de médias do curso de Análise e Desenvolvimento de Sistemas
 Início do projeto: 08/05/2018
 
-## Objetivo
  Este projeto tem o intuito de criar uma ferramenta capaz de funcionar 
 em qualquer computador, que dê suporte às funcionalidades 
 do Microsoft .NetFramework 4.5, de forma offline (sem acesso a internet).
