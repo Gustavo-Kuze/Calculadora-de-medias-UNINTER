@@ -1,4 +1,4 @@
-﻿namespace CalculadoraDeMedia_UNINTER
+﻿namespace CalculadoraDeMedias_UNINTER
 {
     partial class FrmInfo
     {
@@ -116,7 +116,6 @@
             this.textBox1.Size = new System.Drawing.Size(501, 401);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = resources.GetString("textBox1.Text");
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblOpenMoreInfo
             // 
@@ -126,9 +125,9 @@
             this.lblOpenMoreInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(0)))));
             this.lblOpenMoreInfo.Location = new System.Drawing.Point(13, 440);
             this.lblOpenMoreInfo.Name = "lblOpenMoreInfo";
-            this.lblOpenMoreInfo.Size = new System.Drawing.Size(383, 23);
+            this.lblOpenMoreInfo.Size = new System.Drawing.Size(188, 23);
             this.lblOpenMoreInfo.TabIndex = 1;
-            this.lblOpenMoreInfo.Text = "Como calcular a média manualmente";
+            this.lblOpenMoreInfo.Text = "Mais informações";
             this.lblOpenMoreInfo.Click += new System.EventHandler(this.lblOpenMoreInfo_Click);
             // 
             // lblOpenGithub
@@ -137,7 +136,7 @@
             this.lblOpenGithub.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblOpenGithub.Font = new System.Drawing.Font("Liberation Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOpenGithub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(0)))));
-            this.lblOpenGithub.Location = new System.Drawing.Point(13, 476);
+            this.lblOpenGithub.Location = new System.Drawing.Point(12, 491);
             this.lblOpenGithub.Name = "lblOpenGithub";
             this.lblOpenGithub.Size = new System.Drawing.Size(186, 23);
             this.lblOpenGithub.TabIndex = 1;
@@ -152,7 +151,7 @@
             this.paneMoreInfo.Controls.Add(this.btnCloseMoreInfo);
             this.paneMoreInfo.Location = new System.Drawing.Point(3, 3);
             this.paneMoreInfo.Name = "paneMoreInfo";
-            this.paneMoreInfo.Size = new System.Drawing.Size(519, 11);
+            this.paneMoreInfo.Size = new System.Drawing.Size(519, 10);
             this.paneMoreInfo.TabIndex = 3;
             // 
             // textBox2
@@ -165,7 +164,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(515, 379);
+            this.textBox2.Size = new System.Drawing.Size(515, 411);
             this.textBox2.TabIndex = 3;
             this.textBox2.Text = resources.GetString("textBox2.Text");
             // 

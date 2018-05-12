@@ -1,0 +1,5 @@
+﻿EAD - Gestão, Comunicação e Negócios
+
+MD = (5APOLs) x 2 + PO x 3 + PD x 5 / 10
+EX = (PO x 4 + PD x 60) / 10
+RPC = Só vendo a nota

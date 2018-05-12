@@ -1,0 +1,5 @@
+﻿EAD - Educação
+
+MD = (APOL x 1 + PF x 1 + PO x 3 + PD x 5) / 10
+EX = (MD + (PO x 4 + PD x 6/10)) / 2
+RPC = mesmo calculo que EX

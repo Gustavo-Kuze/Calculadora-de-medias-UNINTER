@@ -1,22 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CalculadoraDeMedia_UNINTER
+namespace CalculadoraDeMedias_UNINTER
 {
     public partial class FrmInfo : Form
     {
         public FrmInfo()
         {
             InitializeComponent();
+            initializeProgram();
+        }
 
-            Utils.UIMethods uiMethods = new Utils.UIMethods(this);
+        private void initializeProgram()
+        {
+            Base.Program.GlobalEvents uiMethods = new Base.Program.GlobalEvents(this);
 
             btnMin.Click += uiMethods.btnMin_Click;
             btnClose.Click += uiMethods.btnClose_Click;
@@ -24,14 +22,27 @@ namespace CalculadoraDeMedia_UNINTER
             paneTitleBar.MouseMove += uiMethods.frm_MouseMove;
         }
 
+
+        private void animateInfoPanel(bool show = true)
+        {
+            if (show)
+            {
+                paneMoreInfo.Size = new Size(paneMoreInfo.Size.Width, 526);
+            }
+            else
+            {
+                paneMoreInfo.Size = new Size(paneMoreInfo.Size.Width, 0);
+            }
+        }
+
         private void lblOpenMoreInfo_Click(object sender, EventArgs e)
         {
-            paneMoreInfo.Size = new Size(paneMoreInfo.Size.Width, 526);
+            animateInfoPanel();
         }
 
         private void btnCloseMoreInfo_Click(object sender, EventArgs e)
         {
-            paneMoreInfo.Size = new Size(paneMoreInfo.Size.Width, 0);
+            animateInfoPanel(false);
         }
 
         private void lblOpenGithub_Click(object sender, EventArgs e)
@@ -42,6 +53,9 @@ namespace CalculadoraDeMedia_UNINTER
             }
             catch
             {
+                MessageBox.Show("Não foi possível iniciar o link diretamente, por favor abra o painel de mais informações e abra a partir do link \"Página do projeto\".", 
+                    "Impossível iniciar o processo", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
