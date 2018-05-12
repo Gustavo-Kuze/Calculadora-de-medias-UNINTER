@@ -96,6 +96,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CalculoDeNotas\EAD-Politecnica.txt" />
+    <Content Include="CalculoDeNotas\EAD-Saúde Biociência Meio Ambiente e Sociedade.txt" />
+    <Content Include="CalculoDeNotas\EAD-Gestão_Publica .txt" />
+    <Content Include="CalculoDeNotas\EAD-Gestão_Comunicação.txt" />
+    <Content Include="CalculoDeNotas\EAD-Edu.txt" />
     <Content Include="logo-uninter.ico" />
   </ItemGroup>
   <ItemGroup>

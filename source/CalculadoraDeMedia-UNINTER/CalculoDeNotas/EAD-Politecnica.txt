@@ -1,0 +1,4 @@
+﻿EAD - Politécnica
+
+sMD = (APOL x 2 + PO x 3 + PD x 5) /10
+EX = MD + ( (PO x 4 + PD x 6) / 10 ) / 2

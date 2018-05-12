@@ -1,0 +1,9 @@
+﻿EAD - Saúde, Biociência, Meio Ambiente e Sociedade
+
+MD (área) = APOL x 2 + PO x 3 + PD x 5 / 10
+
+MD (Social) = APOL x 1 + PF x 1 + PO x 3 + PD x 5 / 10
+
+
+EX = mesmo de edu
+RPC = mesmo calculo que EX

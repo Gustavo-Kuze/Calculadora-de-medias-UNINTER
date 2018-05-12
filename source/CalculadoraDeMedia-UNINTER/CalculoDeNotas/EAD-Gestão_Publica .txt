@@ -1,0 +1,5 @@
+﻿EAD - Gestão Pública, Política, Jurídica e de Segurança.
+
+MD = (APOL x 2 + PO x 3 + PD x 5) / 10
+EX = mesmo que edu
+RPC = Só vendo a nota

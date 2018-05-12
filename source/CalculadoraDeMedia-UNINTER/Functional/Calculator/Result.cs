@@ -10,7 +10,7 @@ namespace CalculadoraDeMedias_UNINTER.Functional.Calculator
 
             if (isMF)
             {
-                if (nota > 50)
+                if (nota >= 50)
                 {
                     return 0;
                 }
@@ -21,11 +21,11 @@ namespace CalculadoraDeMedias_UNINTER.Functional.Calculator
             }
             else
             {
-                if (nota > 70)
+                if (nota >= 70)
                 {
                     return 0;
                 }
-                else if (nota > 30)
+                else if (nota >= 30)
                 {
                     return 1;
                 }
