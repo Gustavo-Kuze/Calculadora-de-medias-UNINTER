@@ -47,13 +47,17 @@ namespace CalculadoraDeMedias_UNINTER.Functional.Calculator
                 case SubjectUtils.Subject.EAD_SUP_SAUDE_BIOCIENCIA_MEIOAMBIENTE_SOCIEDADE_SOCIO:
                     MD = calcMDSocio(APOL, APOrPF, PO, PD);
                     break;
+                case SubjectUtils.Subject.SEMI_SUP_GESTAO_COMUNICACAO_NEGOCIOS:
+                    MD = calcMDSemiGesComu(APOL, APOrPF, PO, PD);
+                    break;
                 default:
                     MD = 101M; //error
                     break;
             }
             return MD;
         }
-        
+
+      
         public static Decimal calculateMF(Decimal MD, Decimal EO, Decimal ED, SubjectUtils.Subject subject)
         {
             Decimal MF = 0M;
@@ -171,5 +175,11 @@ namespace CalculadoraDeMedias_UNINTER.Functional.Calculator
             return MF;
         }
 
+        //Semipresencial Gestão, Comunicação
+        private static decimal calcMDSemiGesComu(decimal APOL, decimal APOrPF, decimal PO, decimal PD)
+        {
+            Decimal MD = ((APOrPF * 2) + APOL + (PO * 2) + (PD * 5)) / 10;
+            return MD;
+        }
     }
 }

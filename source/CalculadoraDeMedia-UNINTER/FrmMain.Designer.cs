@@ -732,12 +732,13 @@
             this.cmbSubjects.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.cmbSubjects.FormattingEnabled = true;
             this.cmbSubjects.Items.AddRange(new object[] {
-            "EAD - Educação",
+            "EAD/Semipresencial - Educação",
             "EAD - Gestão, Comunicação e Negócios",
             "EAD - Gestão Pública, Política, Jurídica e de Segurança",
             "EAD - Politécnica",
             "EAD - Saúde, Biociência, Meio Ambiente e Sociedade",
-            "EAD - Saúde, Biociência, Meio Ambiente e Sociedade (Serviço social)"});
+            "EAD - Saúde, Biociência, Meio Ambiente e Sociedade (Serviço social)",
+            "Semipresencial - Gestão, Comunicação e Negócios"});
             this.cmbSubjects.Location = new System.Drawing.Point(24, 23);
             this.cmbSubjects.Name = "cmbSubjects";
             this.cmbSubjects.Size = new System.Drawing.Size(614, 27);

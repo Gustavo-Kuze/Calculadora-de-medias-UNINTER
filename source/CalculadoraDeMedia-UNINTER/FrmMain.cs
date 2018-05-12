@@ -108,7 +108,17 @@ namespace CalculadoraDeMedias_UNINTER
 
                 MD = MathEngine.calculateMD(APOL, 0M, PD, PO, sub);
             }
-            
+            else if (sub == SubjectUtils.Subject.SEMI_SUP_GESTAO_COMUNICACAO_NEGOCIOS)
+            {
+                Decimal AP = nudAP.Value;
+                Decimal APOL = nudApol1.Value;
+                Decimal PO = nudPO.Value;
+                Decimal PD = nudPD.Value;
+                
+
+                MD = MathEngine.calculateMD(APOL, AP, PD, PO, sub);
+            }
+
             return MD;
         }
 
@@ -187,12 +197,20 @@ namespace CalculadoraDeMedias_UNINTER
                     panelPF.Visible = false;
                     panelAP.Visible = false;
                     rdoCalculateMF.Visible = false;
+                    rdoCalculateMD.PerformClick(); //seleciona o rdoCalculateMD ao escolher esta matéria
                     break;
                 case SubjectUtils.Subject.EAD_SUP_SAUDE_BIOCIENCIA_MEIOAMBIENTE_SOCIEDADE_SOCIO:
                     panelAPOLs.Visible = false;
                     panelPF.Visible = true;
                     panelAP.Visible = false;
                     rdoCalculateMF.Visible = true;
+                    break;
+                case SubjectUtils.Subject.SEMI_SUP_GESTAO_COMUNICACAO_NEGOCIOS:
+                    panelAPOLs.Visible = false;
+                    panelPF.Visible = false;
+                    panelAP.Visible = true;
+                    rdoCalculateMF.Visible = false;
+                    rdoCalculateMD.PerformClick(); //seleciona o rdoCalculateMD ao escolher esta matéria
                     break;
                 default:
                     break;
@@ -221,11 +239,15 @@ namespace CalculadoraDeMedias_UNINTER
             else if (cmbSubjects.SelectedIndex == 4) //bio
             {
                 prepareUIBasedOnSubject(SubjectUtils.Subject.EAD_SUP_SAUDE_BIOCIENCIA_MEIOAMBIENTE_SOCIEDADE);
-                rdoCalculateMD.PerformClick(); //seleciona o rdoCalculateMD ao escolher esta matéria
+               
             }
             else if (cmbSubjects.SelectedIndex == 5) //Socio
             {
                 prepareUIBasedOnSubject(SubjectUtils.Subject.EAD_SUP_SAUDE_BIOCIENCIA_MEIOAMBIENTE_SOCIEDADE_SOCIO);
+            }
+            else if (cmbSubjects.SelectedIndex == 6) //Semi gestão
+            {
+                prepareUIBasedOnSubject(SubjectUtils.Subject.SEMI_SUP_GESTAO_COMUNICACAO_NEGOCIOS);
             }
         }
     }
