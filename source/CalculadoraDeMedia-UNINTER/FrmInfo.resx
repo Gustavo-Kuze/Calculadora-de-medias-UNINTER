@@ -125,34 +125,35 @@
 
 Sobre:
 
-Inspirada na Calculadora de médias online do colega 
-Dionata Garcia, esta ferramenta tem o intuito de funcionar 
+Esta ferramenta tem o intuito de funcionar 
 em qualquer computador capaz de suportar as funcionalidades 
 do Microsoft .NetFramework 4.5, 
-de forma offline (sem acesso a internet).
-
-
+de forma offline (sem acesso a internet), além de servir como 
+exercício prático para os alunos que se sentirem dispostos a colaborar 
+com o projeto.
 
 Idealizador do projeto: Gustavo Kuze da Silva</value>
   </data>
   <data name="textBox2.Text" xml:space="preserve">
-    <value>A média da disciplina pode ser calculada da seguinte maneira:
-
+    <value>Para as matérias da área politécnica, 
+a média da disciplina pode ser calculada da seguinte maneira:
 
 N3 = (APOL1 + APOL2 + APOL3 + APOL4 + APOL5) / 5
 N4 = (AP x 4 + PD x 6) / 10
 Média da Disciplina (MD) = (PO x 30 + N3 x 20 + N4 x 50) / 100
 
-____________________________________________
-
-A média do exame pode ser calculada da seguinte maneira:
-
 Média Exame(ME) = (EO x 4 + ED x 6) / 10
 Média Final = (ME + MD) / 2
 
+Já para as demais áreas, por favor visite a página da sua área do 
+manual do aluno, então navegue até:
+curso -&gt; Sistema de avaliação -&gt; cálculo da média.
 ____________________________________________
 
-Página do projeto: 
+Manual do aluno Uninter: 
+https://www.uninter.com/manual-do-aluno/
+
+Página deste projeto: 
 https://github.com/gustavokuze/Calculadora-de-medias-UNINTER</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

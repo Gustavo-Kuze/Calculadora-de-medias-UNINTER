@@ -5,9 +5,8 @@ namespace CalculadoraDeMedias_UNINTER.Functional.Calculator
     public class Result
     {
 
-        public static int check(Decimal nota, bool isMF = false)
+        public static int check(Decimal nota,  Base.Calculator.SubjectUtils.Subject subject, bool isMF = false)
         {
-
             if (isMF)
             {
                 if (nota >= 50)

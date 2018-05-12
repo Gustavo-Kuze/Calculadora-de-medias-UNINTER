@@ -123,9 +123,7 @@ namespace CalculadoraDeMedias_UNINTER.Functional.Calculator
 
         private static Decimal calcEXGesPu(Decimal MD, Decimal PO, Decimal PD)
         {
-            //mesma coisa que edu
-
-            Decimal EX = (MD + (PO * 4) + ((PD * 6) / 10)) / 2;
+            Decimal EX = ((PO * 4) + (PD * 6) / 10) / 2;
             return EX;
         }
 

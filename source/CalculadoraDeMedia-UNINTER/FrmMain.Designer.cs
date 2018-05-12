@@ -51,10 +51,10 @@
             this.label9 = new System.Windows.Forms.Label();
             this.nudPD = new System.Windows.Forms.NumericUpDown();
             this.paneAPOLs = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
             this.panelPF = new System.Windows.Forms.Panel();
             this.lblPF = new System.Windows.Forms.Label();
             this.nudPF = new System.Windows.Forms.NumericUpDown();
+            this.label12 = new System.Windows.Forms.Label();
             this.panelAP = new System.Windows.Forms.Panel();
             this.lblAP = new System.Windows.Forms.Label();
             this.panelAPOLs = new System.Windows.Forms.Panel();
@@ -363,24 +363,13 @@
             this.paneAPOLs.Size = new System.Drawing.Size(466, 145);
             this.paneAPOLs.TabIndex = 3;
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Liberation Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.label12.Location = new System.Drawing.Point(11, 7);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(210, 17);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Digite suas notas das APOLs";
-            // 
             // panelPF
             // 
             this.panelPF.Controls.Add(this.lblPF);
             this.panelPF.Controls.Add(this.nudPF);
             this.panelPF.Font = new System.Drawing.Font("Liberation Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelPF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.panelPF.Location = new System.Drawing.Point(171, 87);
+            this.panelPF.Location = new System.Drawing.Point(12, 87);
             this.panelPF.Name = "panelPF";
             this.panelPF.Size = new System.Drawing.Size(146, 53);
             this.panelPF.TabIndex = 3;
@@ -407,6 +396,17 @@
             this.nudPF.Size = new System.Drawing.Size(76, 27);
             this.nudPF.TabIndex = 1;
             this.nudPF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Liberation Sans", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.label12.Location = new System.Drawing.Point(11, 7);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(210, 17);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Digite suas notas das APOLs";
             // 
             // panelAP
             // 
@@ -479,7 +479,7 @@
             this.nudEO.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudEO.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudEO.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(0)))));
-            this.nudEO.Location = new System.Drawing.Point(12, 60);
+            this.nudEO.Location = new System.Drawing.Point(25, 62);
             this.nudEO.Name = "nudEO";
             this.nudEO.Size = new System.Drawing.Size(76, 27);
             this.nudEO.TabIndex = 1;
@@ -490,7 +490,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Liberation Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.label16.Location = new System.Drawing.Point(11, 41);
+            this.label16.Location = new System.Drawing.Point(24, 43);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(61, 17);
             this.label16.TabIndex = 1;
@@ -508,7 +508,7 @@
             this.nudED.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudED.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudED.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(0)))));
-            this.nudED.Location = new System.Drawing.Point(186, 60);
+            this.nudED.Location = new System.Drawing.Point(190, 62);
             this.nudED.Name = "nudED";
             this.nudED.Size = new System.Drawing.Size(76, 27);
             this.nudED.TabIndex = 1;
@@ -519,7 +519,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Liberation Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.label17.Location = new System.Drawing.Point(185, 41);
+            this.label17.Location = new System.Drawing.Point(189, 43);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(77, 17);
             this.label17.TabIndex = 1;
@@ -568,7 +568,7 @@
             this.panelMF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
             this.panelMF.Location = new System.Drawing.Point(24, 280);
             this.panelMF.Name = "panelMF";
-            this.panelMF.Size = new System.Drawing.Size(270, 106);
+            this.panelMF.Size = new System.Drawing.Size(375, 106);
             this.panelMF.TabIndex = 3;
             // 
             // label18
@@ -587,7 +587,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Liberation Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.label10.Location = new System.Drawing.Point(100, 39);
+            this.label10.Location = new System.Drawing.Point(104, 42);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(30, 17);
             this.label10.TabIndex = 1;
@@ -599,7 +599,7 @@
             this.nudMD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudMD.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudMD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(0)))));
-            this.nudMD.Location = new System.Drawing.Point(103, 59);
+            this.nudMD.Location = new System.Drawing.Point(107, 62);
             this.nudMD.Name = "nudMD";
             this.nudMD.Size = new System.Drawing.Size(76, 27);
             this.nudMD.TabIndex = 1;
@@ -705,7 +705,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.label13.Location = new System.Drawing.Point(19, 389);
+            this.label13.Location = new System.Drawing.Point(19, 388);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(623, 15);
             this.label13.TabIndex = 6;
@@ -728,6 +728,7 @@
             this.cmbSubjects.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbSubjects.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSubjects.Font = new System.Drawing.Font("Liberation Sans", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSubjects.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.cmbSubjects.FormattingEnabled = true;
             this.cmbSubjects.Items.AddRange(new object[] {
@@ -739,7 +740,7 @@
             "EAD - Saúde, Biociência, Meio Ambiente e Sociedade (Serviço social)"});
             this.cmbSubjects.Location = new System.Drawing.Point(24, 23);
             this.cmbSubjects.Name = "cmbSubjects";
-            this.cmbSubjects.Size = new System.Drawing.Size(614, 23);
+            this.cmbSubjects.Size = new System.Drawing.Size(614, 27);
             this.cmbSubjects.TabIndex = 5;
             this.cmbSubjects.SelectedIndexChanged += new System.EventHandler(this.cmbSubjects_SelectedIndexChanged);
             // 

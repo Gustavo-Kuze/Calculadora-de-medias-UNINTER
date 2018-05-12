@@ -59,6 +59,7 @@ namespace CalculadoraDeMedias_UNINTER
             else
             {
                 Decimal mF = calculateMF();
+                /*aqui ainda precisa tratar caso a caso os MFs*/
                 showResultsToUser(mF, true);
             }
         }
@@ -115,13 +116,12 @@ namespace CalculadoraDeMedias_UNINTER
         {
             txtMD.Text = userResult.ToString();
 
-            int checkResult = Result.check(userResult, isMF);
+            int checkResult = Result.check(userResult, sub, isMF);
 
-            txtMD.Text = userResult.ToString();
+            txtMD.Text = userResult.ToString();       
 
             lblResult.Text = ResultUtils.resultsText[checkResult];
             lblResult.ForeColor = Base.Calculator.ResultUtils.resultsColors[checkResult];
-
         }
 
         private void lblInfo_Click(object sender, EventArgs e)
@@ -204,27 +204,28 @@ namespace CalculadoraDeMedias_UNINTER
         {
             if(cmbSubjects.SelectedIndex == 0) //edu
             {
-                prepareUIBasedOnSubject(Base.Calculator.SubjectUtils.Subject.EAD_SUP_EDU);
+                prepareUIBasedOnSubject(SubjectUtils.Subject.EAD_SUP_EDU);
             }
             else if (cmbSubjects.SelectedIndex == 1) //gesComu
             {
-                prepareUIBasedOnSubject(Base.Calculator.SubjectUtils.Subject.EAD_SUP_GESTAO_COMUNICACAO_NEGOCIOS);
+                prepareUIBasedOnSubject(SubjectUtils.Subject.EAD_SUP_GESTAO_COMUNICACAO_NEGOCIOS);
             }
             else if (cmbSubjects.SelectedIndex == 2) //gesPub
             {
-                prepareUIBasedOnSubject(Base.Calculator.SubjectUtils.Subject.EAD_SUP_GESTAO_PUBLICA_POLITICA_JURIDICA_SEGURANCA);
+                prepareUIBasedOnSubject(SubjectUtils.Subject.EAD_SUP_GESTAO_PUBLICA_POLITICA_JURIDICA_SEGURANCA);
             }
             else if (cmbSubjects.SelectedIndex == 3) //poli
             {
-                prepareUIBasedOnSubject(Base.Calculator.SubjectUtils.Subject.EAD_SUP_POLITECNICA);
+                prepareUIBasedOnSubject(SubjectUtils.Subject.EAD_SUP_POLITECNICA);
             }
             else if (cmbSubjects.SelectedIndex == 4) //bio
             {
-                prepareUIBasedOnSubject(Base.Calculator.SubjectUtils.Subject.EAD_SUP_SAUDE_BIOCIENCIA_MEIOAMBIENTE_SOCIEDADE);
+                prepareUIBasedOnSubject(SubjectUtils.Subject.EAD_SUP_SAUDE_BIOCIENCIA_MEIOAMBIENTE_SOCIEDADE);
+                rdoCalculateMD.PerformClick(); //seleciona o rdoCalculateMD ao escolher esta matéria
             }
             else if (cmbSubjects.SelectedIndex == 5) //Socio
             {
-                prepareUIBasedOnSubject(Base.Calculator.SubjectUtils.Subject.EAD_SUP_SAUDE_BIOCIENCIA_MEIOAMBIENTE_SOCIEDADE_SOCIO);
+                prepareUIBasedOnSubject(SubjectUtils.Subject.EAD_SUP_SAUDE_BIOCIENCIA_MEIOAMBIENTE_SOCIEDADE_SOCIO);
             }
         }
     }
