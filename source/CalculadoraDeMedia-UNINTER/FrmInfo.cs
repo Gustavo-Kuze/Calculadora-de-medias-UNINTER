@@ -49,7 +49,7 @@ namespace CalculadoraDeMedias_UNINTER
         {
             try
             {
-                System.Diagnostics.Process.Start("https://github.com/gustavokuze/Calculadora-de-medias-UNINTER");
+                System.Diagnostics.Process.Start("https://github.com/Gustavo-Kuze/Calculadora-de-medias-UNINTER");
             }
             catch
             {
