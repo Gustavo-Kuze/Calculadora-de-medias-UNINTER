@@ -35,7 +35,9 @@ mono %f
 Pronto!
  
  ## Aviso
-- Por hora a calculadora faz cálculos apenas para as médias baseadas no ensino a distância, porém pretendo ampliar a capacidade para o semi presencial também;
+- Como não tive nenhum tipo de contato com professores até o momento para desenvolver este projeto, todos os cálculos estão sendo baseados no manual do aluno presente no [site da Uninter](https://www.uninter.com/manual-do-aluno/); Logo, alguns cálculos não estão presentes, como o cálculo de média do exame do curso semipresencial de Gestão, por não estarem presentes no manual.
+
 - O projeto está sendo escrito em CSharp no momento, por se tratar da linguagem que melhor domino, contudo, pretendo criar uma versão que seja uma extensão de navegador (provalvelmente escrita em JS), para facilitar a portabilidade do mesmo para outras plataformas não capazes de emularem o DotNet, que ainda assim sejam capazes de acessar um navegador.
+
 - Aos colegas interessados em ajudar, entrem em contato no meu email gustavoksilva@gmail.com que os adicionarei como colaboradores aqui.
 
