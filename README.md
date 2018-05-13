@@ -12,6 +12,9 @@ do Microsoft .NetFramework 4.5, de forma offline (sem acesso a internet), Além 
  - .[NetFramework 4.5](https://www.microsoft.com/pt-br/download/details.aspx?id=42642) (para os sistemas Windows);
  - [Mono](https://www.mono-project.com/download/stable/) (para Linux e Mac)
  
+ ## Download:
+ Faça o download do arquivo zip da ultima versão na aba [Releases](https://github.com/Gustavo-Kuze/Calculadora-de-medias-UNINTER/releases)
+ 
  ## Como instalar no Linux adequadamente
  1- Adicione os PPAs do Mono runtime no seu sistema:
  ```
